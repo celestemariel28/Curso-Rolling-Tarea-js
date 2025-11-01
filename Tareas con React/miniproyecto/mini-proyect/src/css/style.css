@@ -1,0 +1,38 @@
+
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 15px;
+  background-color:rgba(157, 218, 77, 0.548) ;
+}
+h1{
+    color:  rgba(25, 27, 2, 0.959);
+}
+
+.content {
+  flex: 1;
+  background-color:  rgba(199, 198, 116, 0.445);
+}
+ul{
+    list-style: none;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  animation: girar 10s linear infinite;
+}
+
+@keyframes girar {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
